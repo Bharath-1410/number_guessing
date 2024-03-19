@@ -1,0 +1,68 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /* background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); */
+    background-image: linear-gradient(to top, #e38acf 0%, #72afd3 100%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 2rem 5rem;
+    
+}
+.content center h1{
+    font-size: 2rem;
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content li{
+    color: darkslategray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 50;
+    line-height: 30px;
+}
+.display{
+    margin:1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+#user-input{
+    height: 3.3rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+#display-guess{
+    margin: 1rem 0;
+    text-align: center;
+}
+#result{
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+}
+.events{
+    display:flex;
+    justify-content: space-evenly;
+}
+.events button{
+    padding: 0.5rem 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    color: darkslategrey;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.events button:hover{
+    background: rgba(255, 255, 255, 0.404);
+}
+

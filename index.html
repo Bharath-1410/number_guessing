@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <center><h1>Guess The Number</h1></center>
+        <h3>Rules : </h3>
+        <li>Guess the number from 1 to 100</li>
+        <li>Click on The check button</li>
+        <li>It will give the hint to guess the Number</li>
+        <li>Repeat The same step till you find the Number</li>
+        <section class="display">
+            <input id="user-input" type="text" placeholder="Enter a Number">
+            <label id="display-guess">Number of Guesses : 0</label>
+            <label id="result"></label>
+        </section>
+        <setion class="events">
+            <button onclick="GuessNumber()">Check</button>
+            <button onclick="window.location.reload()">Reset</button>
+        </setion>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
